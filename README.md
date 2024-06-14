@@ -18,6 +18,6 @@ Provide a seamless experience for developers accustomed to IntelliJ IDEA's workf
 
 Accelerate coding speed and accuracy by offering timely suggestions for methods, properties, and variables after typing the 'dot' key.
 
-![feature X](images/feature.png)
+![feature X](https://github.com/0xlau/dotxxx/blob/main/images/feature.png?raw=true)
 
 **Enjoy!**

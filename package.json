@@ -2,17 +2,16 @@
   "name": "dotxxx",
   "displayName": "dotxxx",
   "description": "Improve coding efficiency in VS code through automatic completion.",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "repository": "https://github.com/0xlau/dotxxx",
+  "publisher": "TimothyLau",
   "engines": {
     "vscode": "^1.90.0"
   },
   "categories": [
     "Other"
   ],
-  "activationEvents": [
-    "onLanguage:*"
-  ],
+  "activationEvents": [],
   "main": "./dist/extension.js",
   "contributes": {
     "languages": [
@@ -45,8 +44,8 @@
     ]
   },
   "scripts": {
-    "vsce:package": "pnpm vsce package --no-dependencies",
-    "vsce:publish": "pnpm vsce publish --no-dependencies",
+    "vsce:package": "pnpm vsce package --no-dependencies --baseContentUrl --baseImagesUrl",
+    "vsce:publish": "pnpm vsce publish --no-dependencies --baseContentUrl --baseImagesUrl",
     "vscode:prepublish": "pnpm run package",
     "compile": "pnpm run check-types && pnpm run lint && node esbuild.js",
     "watch": "npm-run-all -p watch:*",
