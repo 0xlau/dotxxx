@@ -16,6 +16,30 @@
   "contributes": {
     "languages": [
       {
+        "id": "typescriptreact",
+        "aliases": [
+          "Typescriptreact",
+          "typescriptreact",
+          "tsx"
+        ],
+        "extensions": [
+          ".tsx"
+        ],
+        "configuration": "./language-configuration.json"
+      },
+      {
+        "id": "javascriptreact",
+        "aliases": [
+          "Javascriptreact",
+          "javascriptreact",
+          "jsx"
+        ],
+        "extensions": [
+          ".jsx"
+        ],
+        "configuration": "./language-configuration.json"
+      },
+      {
         "id": "javascript",
         "aliases": [
           "JavaScript",
@@ -23,8 +47,7 @@
           "js"
         ],
         "extensions": [
-          ".js",
-          ".jsx"
+          ".js"
         ],
         "configuration": "./language-configuration.json"
       },
@@ -36,8 +59,7 @@
           "ts"
         ],
         "extensions": [
-          ".ts",
-          ".tsx"
+          ".ts"
         ],
         "configuration": "./language-configuration.json"
       }
