@@ -2,7 +2,7 @@
   "name": "dotxxx",
   "displayName": "dotxxx",
   "description": "Improve coding efficiency in VS code through automatic completion.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "repository": "https://github.com/0xlau/dotxxx",
   "publisher": "TimothyLau",
   "engines": {
